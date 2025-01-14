@@ -1,6 +1,6 @@
 # MNIST Digit Classifier in C++
 
-A neural network implementation for classifying handwritten digits from the MNIST dataset using C++. The project implements a simple feedforward neural network with one hidden layer using ReLU activation.
+A neural network implementation for classifying handwritten digits from the MNIST dataset using C++. The project implements a simple feedforward neural network with one hidden layer using ReLU activation, following the architecture described in Chapter 8 "Learning signal and ignoring noise" of the book "Grokking Deep Learning" by Andrew W. Trask.
 
 ## Features
 
@@ -44,6 +44,8 @@ make main.cpp
 ```
 
 ## Neural Network Architecture
+
+The neural network follows the implementation from "Grokking Deep Learning" Chapter 8:
 
 - Input layer: 784 neurons (28x28 pixels)
 - Hidden layer: 40 neurons with ReLU activation
